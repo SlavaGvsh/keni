@@ -160,6 +160,9 @@ a {
   }
 }
 @media (max-width: 767px) {
+  body.lock {
+    overflow: hidden;
+  }
   .header__burger {
     display: block;
   }
@@ -391,7 +394,7 @@ a {
   margin: 0px 0px 40px 0px;
 }
 .registration__body {
-  background: url(/img/section-registration/img-bg.png) no-repeat #3e9d26;
+  background: url(../img/section-registration/img-bg.png) no-repeat #3e9d26;
   background-position: center;
   background-size: cover;
   border-radius: 10px;
