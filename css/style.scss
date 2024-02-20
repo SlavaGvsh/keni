@@ -161,6 +161,11 @@ a {
 }
 
 @media (max-width: 767px) {
+   body{
+      &.lock{
+         overflow: hidden;
+      }
+   }
    .header {
       &__burger {
          display: block;
