@@ -497,6 +497,10 @@ a {
 .products__list li {
   margin: 0px 0px 10px 0px;
 }
+.products__list li:hover {
+  transition: all 0.3s ease 0s;
+  opacity: 0.7;
+}
 
 @media (max-width: 767px) {
   .products__container {
@@ -544,6 +548,10 @@ a {
 .footer__item li {
   margin: 0px 0px 10px 0px;
 }
+.footer__item li:hover {
+  transition: all 0.3s ease 0s;
+  opacity: 0.7;
+}
 .footer__item li.footer__subtitle {
   font-weight: 700;
   margin-bottom: 20px;
@@ -556,6 +564,10 @@ a {
 }
 .footer__social i {
   font-size: 20px;
+}
+.footer__social i:hover {
+  transition: all 0.3s ease 0s;
+  opacity: 0.7;
 }
 .footer__bottom {
   display: flex;
@@ -577,56 +589,59 @@ a {
   display: flex;
   gap: 20px;
 }
-
+.footer__bottom-list li:hover {
+  transition: all 0.3s ease 0s;
+  opacity: 0.7;
+}
 @media (max-width: 1024px) {
-  .footer__top {
+  .footer .footer__top {
     margin: 0px 0px 40px 0px;
   }
 }
 @media (max-width: 800px) {
-  .footer__top {
+  .footer .footer__top {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  .footer__column {
+  .footer .footer__column {
     gap: 40px;
   }
-  .footer__bottom {
+  .footer .footer__bottom {
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
 }
 @media (max-width: 479px) {
-  .footer__top {
+  .footer .footer__top {
     align-items: flex-start;
   }
-  .footer__column {
+  .footer .footer__column {
     gap: 20px;
     flex-direction: column;
   }
-  .footer__item a {
+  .footer .footer__item a {
     display: block;
     padding: 10px 5px;
   }
-  .footer__subtitle {
+  .footer .footer__subtitle {
     font-size: 18px;
   }
-  .footer__bottom {
+  .footer .footer__bottom {
     flex-direction: column-reverse;
   }
-  .footer__bottom-list {
+  .footer .footer__bottom-list {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .footer__bottom-info {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    gap: 10px;
-    margin: 0;
-  }
-  .footer__bottom-info .location {
-    margin: 0;
-  }
+}
+.footer .footer__bottom-info {
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+}
+.footer .footer__bottom-info .location {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

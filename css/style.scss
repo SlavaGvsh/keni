@@ -548,6 +548,10 @@ a {
       }
       li {
          margin: 0px 0px 10px 0px;
+         &:hover {
+            transition: all 0.3s ease 0s;
+            opacity: 0.7;
+         }
       }
    }
 }
@@ -607,6 +611,10 @@ a {
    &__item {
       li {
          margin: 0px 0px 10px 0px;
+         &:hover {
+            transition: all 0.3s ease 0s;
+            opacity: 0.7;
+         }
 
          &.footer__subtitle {
             font-weight: 700;
@@ -623,6 +631,10 @@ a {
       }
       i {
          font-size: 20px;
+         &:hover {
+            transition: all 0.3s ease 0s;
+            opacity: 0.7;
+         }
       }
    }
    &__bottom {
@@ -644,6 +656,11 @@ a {
    &__bottom-list {
       display: flex;
       gap: 20px;
+      li{
+         &:hover {
+            transition: all 0.3s ease 0s;
+            opacity: 0.7;
+         }
    }
 }
 //-------------media-footer
@@ -690,6 +707,8 @@ a {
    .footer__bottom-list {
       flex-wrap: wrap;
       justify-content: center;
+      
+      }
    }
    .footer__bottom-info {
       flex-wrap: wrap-reverse;
