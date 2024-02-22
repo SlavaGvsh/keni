@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
+@import url("../icon-font/style.css");
 @import "null.css";
 body {
    font-family: "Roboto", sans-serif;
@@ -127,6 +127,9 @@ a {
             opacity: 0.7;
          }
       }
+      i {
+         font-size: 20px;
+      }
    }
    &__burger {
       display: none;
@@ -161,10 +164,9 @@ a {
 }
 
 @media (max-width: 767px) {
-   body{
-      &.lock{
+   body {
+      &.lock {
          overflow: hidden;
-         
       }
    }
    .header {
@@ -248,8 +250,9 @@ a {
       span {
          margin: 0px 10px 0px 0px;
       }
-      img {
+      i {
          margin: 0px 10.5px 0px 0px;
+         font-size: 20px;
       }
       a {
          color: #fff;
@@ -417,6 +420,47 @@ a {
       top: -60px;
       right: 30px;
    }
+
+   .owl-carousel .owl-nav{
+      .owl-prev {
+         
+         color: #3e9d26;
+         &.disabled{
+            color: #449596;
+            opacity: 50%;
+         }
+         &::before {
+            content: "\e900";
+            font-family: "icomoon" !important;
+            font-size: 30px;
+         }
+         span {
+            display: none;
+            
+         }
+      }
+      .owl-next{
+         color: #3e9d26;
+         &.disabled{
+            color: #449596;
+            opacity: 50%;
+         }
+         &::before {
+            content: "\e901";
+            font-family: "icomoon" !important;
+            font-size: 30px;
+            
+   
+         }
+         span {
+            display: none;
+            
+         }
+      }
+   }
+
+   
+   
 }
 
 //-------------registration-sport
@@ -577,6 +621,9 @@ a {
          align-items: center;
          justify-content: space-between;
       }
+      i {
+         font-size: 20px;
+      }
    }
    &__bottom {
       display: flex;
@@ -586,8 +633,9 @@ a {
       margin: 0px 10px 0px 0px;
       display: flex;
       align-items: center;
-      img {
+      .icon-location-img {
          margin: 0px 14px 0px 0px;
+         font-size: 20px;
       }
       .location {
          margin: 0px 40px 0px 0px;

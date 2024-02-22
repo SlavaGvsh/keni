@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("../icon-font/style.css");
 @import "null.css";
 body {
   font-family: "Roboto", sans-serif;
@@ -129,6 +130,9 @@ a {
 .header__links a:hover {
   opacity: 0.7;
 }
+.header__links i {
+  font-size: 20px;
+}
 .header__burger {
   display: none;
 }
@@ -241,8 +245,9 @@ a {
 .hero__btn span {
   margin: 0px 10px 0px 0px;
 }
-.hero__btn img {
+.hero__btn i {
   margin: 0px 10.5px 0px 0px;
+  font-size: 20px;
 }
 .hero__btn a {
   color: #fff;
@@ -386,6 +391,36 @@ a {
   top: -60px;
   right: 30px;
 }
+.shop-sport .owl-carousel .owl-nav .owl-prev {
+  color: #3e9d26;
+}
+.shop-sport .owl-carousel .owl-nav .owl-prev.disabled {
+  color: #449596;
+  opacity: 50%;
+}
+.shop-sport .owl-carousel .owl-nav .owl-prev::before {
+  content: "\e900";
+  font-family: "icomoon" !important;
+  font-size: 30px;
+}
+.shop-sport .owl-carousel .owl-nav .owl-prev span {
+  display: none;
+}
+.shop-sport .owl-carousel .owl-nav .owl-next {
+  color: #3e9d26;
+}
+.shop-sport .owl-carousel .owl-nav .owl-next.disabled {
+  color: #449596;
+  opacity: 50%;
+}
+.shop-sport .owl-carousel .owl-nav .owl-next::before {
+  content: "\e901";
+  font-family: "icomoon" !important;
+  font-size: 30px;
+}
+.shop-sport .owl-carousel .owl-nav .owl-next span {
+  display: none;
+}
 
 .registration {
   margin: 0px 0px 80px 0px;
@@ -519,6 +554,9 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+.footer__social i {
+  font-size: 20px;
+}
 .footer__bottom {
   display: flex;
   justify-content: space-between;
@@ -528,8 +566,9 @@ a {
   display: flex;
   align-items: center;
 }
-.footer__bottom-info img {
+.footer__bottom-info .icon-location-img {
   margin: 0px 14px 0px 0px;
+  font-size: 20px;
 }
 .footer__bottom-info .location {
   margin: 0px 40px 0px 0px;
